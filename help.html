@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./CSS/base.css">
+    <title>RRへの50の質問</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="top"><a href="./index.html">RR</a></h1>
+        <nav id="menubar">
+            <ul>
+                <li><a href="./history.html">RRの2020年日記</a></li>
+                <li><a href="./RR50.html">RRへの30の質問</a></li>
+                <li><a href="./help.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <h2>お問い合わせ</h2>
+
+        <form action="#" method="get">
+            
+            <p>《注意事項》</p>
+            <p>送信された内容には、一切ご返信しかねますので、予めご了承ください。</p>
+
+            <p>
+                <label for="last-name">姓 *</label>
+                <input type="text" name="lastname" id="last-name" placeholder="姓" required />
+
+                <label>
+                    名 *
+                    <input type="text" name="firstname" />
+                </label>
+            </p>
+
+            <p>
+                <label for="email">メールアドレス *</label>
+                <input type="text" name="email" id="email" />
+            </p>
+
+            <p>
+                <label><input type="radio" name="seibetsu" value="female" />
+                    女性</label>
+                <label><input type="radio" name="seibetsu" value="male" />
+                    男性</label>
+                <label><input type="radio" name="seibetsu" value="other" />
+                    その他</label>
+            </p>
+
+            <p>
+                <label for="requests">お問い合わせ内容 *</label>
+                <textarea id="requests" name="requests" rows="8" cols="60"></textarea>
+            </p>
+
+
+            <p>
+                <input type="submit" value="送信する" />
+            </p>
+
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
+    <script src="js/js.js"></script>
+
+    <footer>
+        <a href="#top">ページの一番上に戻る</a>
+        <p>&copy; RR</p>
+    </footer>
+
+</body></html>
